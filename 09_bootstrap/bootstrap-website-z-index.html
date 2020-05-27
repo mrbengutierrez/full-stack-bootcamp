@@ -1,0 +1,71 @@
+
+
+
+
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<title>Hello, world!</title>
+</head>
+<body>
+
+
+
+
+	<div class="red">Red</div>
+	<div class="yellow">Yellow</div>
+	<div class="blue">Blue</div>
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+
+<style>
+	.carousel-item {
+		height: 500px;
+	}
+
+	.red, .yellow, .blue {
+		height: 100px;
+		width: 100px;
+		border: 1px solid;
+/*		position: absolute;
+*/	}
+
+	.red {
+		background-color: red;
+		/*z-index: 1;*/
+
+		position: absolute;
+	}
+
+	.yellow {
+		background-color: yellow;
+		left: 20px;
+		top: 20px;
+		z-index: 10;
+		position:relative;
+	}
+
+	.blue {
+		background-color: blue;
+		left: 40px;
+		top:40px;
+		z-index: -1;
+	}
+</style>
+</html>
